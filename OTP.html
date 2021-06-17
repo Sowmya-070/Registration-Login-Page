@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Autofocus Field</title>
+	<link rel="stylesheet" type="text/css" href="otp.css">
+</head>
+<body>
+	<div class="container">
+		<h1>ENTER OTP</h1>
+		<div class="userInput">
+			<input type="password" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
+			<input type="password" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
+			<input type="password" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
+			<input type="password" id="fourth" maxlength="1">
+		</div>
+		<button type="button" onclick="alert('Otp has been verified successfully')">Confirm</button>
+                <script type="text/javascript">
+                setTimeout(
+                function ( )
+                {
+                  self.close();
+                }, 10000 );
+                </script>
+	</div>
+</body>
+</html>
+
+    
